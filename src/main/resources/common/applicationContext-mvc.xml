@@ -28,7 +28,7 @@
     @ResponseBody
     @Scope("prototype")   设定bean的作用域 -->
     <!-- 设置使用注解的类所在的jar包 -->
-    <context:component-scan base-package="com.feng"/>
+    <context:component-scan base-package="com.mjj"/>
 
     <!-- 对转向页面的路径解析。prefix：前缀， suffix：后缀 -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">    

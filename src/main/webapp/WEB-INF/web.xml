@@ -25,7 +25,7 @@
 		如:加载spring的配置文件，设置Spring容器加载配置文件路径 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath*:applicationContext*.xml</param-value>
+        <param-value>classpath:common/applicationContext*.xml</param-value>
     </context-param>
     
     
@@ -54,7 +54,7 @@
 	    -->
         <init-param>  
 	      <param-name>contextConfigLocation</param-name>  
-	      <param-value>classpath*:applicationContext*.xml</param-value>  
+	      <param-value>classpath:common/applicationContext*.xml</param-value>
 	    </init-param> 
         <load-on-startup>1</load-on-startup>
         <async-supported>true</async-supported>
